@@ -1,0 +1,13 @@
+ErrorDocument 404 http://www.tumascotayyo.com
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html
+Options -Indexes
+ErrorDocument 403 http:///www.tumascotayyo.com
