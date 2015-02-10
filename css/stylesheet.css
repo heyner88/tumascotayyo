@@ -10,7 +10,7 @@ src: url(../fonts/geosanslight.ttf) format("truetype");
 }
 header
 {
-	background: #fff;
+	background: #00a7ff;
 	border-bottom: 1px solid #333;
 	color: #fff;
 	opacity: 0.9;
